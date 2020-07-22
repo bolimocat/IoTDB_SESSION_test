@@ -1,0 +1,5 @@
+----规则说明：||分割，1 deviceID 2 times (list<long>) 3 sensor (list<list>) 4 value(list) 5 数据类型
+ln1||time||dev1==dev2==dev3||123==333=444||INT64==INT64==INT64
+ln1||time||dev1==dev2==dev3||123==333=444||INT64==INT64==INT64
+ln1||time||dev1==dev2==dev3||123==333=444||INT64==INT64==INT64
+ln1||time||dev1==dev2==dev3||123==333=444||INT64==INT64==INT64

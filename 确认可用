@@ -1,0 +1,17 @@
+打开连接：
+connectIotdb cit1 = new connectIotdb(dbip,dbuser,dbpass);
+
+声明
+	创建存储组
+		cit.createGroup("root.ln");
+	创建单条时序信息
+		cit.createTimeseries("root.ln", "dev", "status", TSDataType.INT64, TSEncoding.PLAIN, CompressionType.SNAPPY);
+		
+
+
+
+
+
+
+关闭连接：
+connectIotdb cit2 = new connectIotdb("close");

@@ -1,0 +1,3 @@
+--规则说明：deviceID,数据类型，编码类型，是否压缩，标签名，标签值，属性名，属性值，别名
+root.ln.deva::INT64::PLAIN::SNAPPY::[unit1_kg1==unit2_kg2]::[maxValue_100==maxValue_100]::weight1
+root.ln.deva::INT64::PLAIN::SNAPPY::[unit3_kg3==unit4_kg4]::[maxValue_110==maxValue_100]::weight2
